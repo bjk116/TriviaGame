@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<title>Movie Trivia Game!</title>
+	<!--CSS Style Sheets-->
+	<link rel='stylesheet' type='text/css' href='assets/css/vendor/bootstrap-3.3.7-dist/css/bootstrap.min.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+	<link rel='stylesheet' type='text/css' href='assets/css/reset.css'>
+	<!--jQuery/Javascript Links-->
+	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+	<script src='assets/javascript/game.js'></script>
+</header>
+<body>
+	<div class = 'container container-fluid'>
+		<div class = 'row' id = 'mainBox'>
+			<div class = 'row'>
+				<div class = 'col-xl-10 col-xl-offset-1 col-sm-12'>
+					<!--Jazz up the title text-->
+					<h1 class = 'text-center' id = 'triviaTitle'>Welcome to Trivia!</h1>
+					<br>
+					<h2 class = 'text-center disappear'><u>How to Play</u></h2>
+					<h3 class = 'disappear squish'>The game is simple.  Once you click start, the timer begins, questions appear, answer the questions and hit submit to see if you're right!  Continue until there are no more questions (or the timer runs out), and see how well you do!</h3>
+					<div class = 'text-center'>
+						<button type='button' class = 'btn btn-primary' id = 'startBtn'>Start Game!</button>
+					</div>
+				</div>
+			</div>
+			<div class = 'row'>
+				<div id = 'question'>
+				</div>
+				<br>
+				<div id = 'answer1'>
+				</div>
+				<br>
+				<div id = 'answer2'>
+				</div>
+				<br>
+				<div id = 'answer3'>
+				</div>
+				<br>
+				<div id = 'answer4'>
+				</div>
+				<br>
+				<div id = 'submitAnswer'>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

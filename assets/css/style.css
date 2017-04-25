@@ -1,0 +1,21 @@
+body {
+	background-image: url('../images/pink dust.png');
+}
+
+#triviaTitle {
+	margin-top: 3%;
+}
+
+#mainBox {
+	margin-top: 3%;
+	background-image: url('../images/hip-square.png');
+	height: 600px;
+}
+
+#startBtn {
+	margin-top:5%;
+}
+
+.squish {
+	margin: 3% 5% 0% 5%;
+}
